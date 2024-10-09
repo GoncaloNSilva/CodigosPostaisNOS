@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2108b3-53f0-4a44-9b96-49234fffba36" name="Changes" comment="primeiro commit">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connect.py" afterDir="false" />
+    <list default="true" id="be2108b3-53f0-4a44-9b96-49234fffba36" name="Changes" comment="added README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codigos_postais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/codigos_postais.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +24,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GoncaloSilvaUTAD"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GoncaloSilvaUTAD&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GoncaloSilvaUTAD/CodigosPostaisNOS.git",
-    "accountId": "4d7577da-2a4c-424f-8eef-ddb2c7b73c0e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GoncaloSilvaUTAD/CodigosPostaisNOS.git&quot;,
+    &quot;accountId&quot;: &quot;4d7577da-2a4c-424f-8eef-ddb2c7b73c0e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -49,7 +54,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.trim_quotes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -105,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728302389485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implementação de conexão à base de dados, leitura do ficheiro csv e funcionalidade de fazer pedido à API dos CTT">
+      <option name="closed" value="true" />
+      <created>1728315475041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728315475041</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added README">
+      <option name="closed" value="true" />
+      <created>1728315811529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728315811529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -113,15 +135,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
+    <MESSAGE value="implementação de conexão à base de dados, leitura do ficheiro csv e funcionalidade de fazer pedido à API dos CTT" />
+    <MESSAGE value="added README" />
+    <option name="LAST_COMMIT_MESSAGE" value="added README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <condition expression="codigo_postal == &quot;8125-161&quot;" language="Python" />
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
+          <line>49</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
