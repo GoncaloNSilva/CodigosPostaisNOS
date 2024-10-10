@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2108b3-53f0-4a44-9b96-49234fffba36" name="Changes" comment="added README">
+    <list default="true" id="be2108b3-53f0-4a44-9b96-49234fffba36" name="Changes" comment="funcionalidade enriquecimento ficheiro csv implementada e executada (algumas linhas inalteradas devido a resposta vazia da API)">
+      <change afterPath="$PROJECT_DIR$/db_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigos_postais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/codigos_postais.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Debug",
+    "Python tests.Python tests in testes.py.executor": "Run",
+    "Python.db_api.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.trim_quotes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/gnsil/OneDrive/Ambiente de Trabalho/Formação Specialisterne/NOS/codigos_postais.csv",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/gnsil/OneDrive/Ambiente de Trabalho/Formação Specialisterne/NOS/testes_ricardo.py",
+    "settings.editor.selected.configurable": "debugger.dataViews.python.type.renderers"
   }
 }]]></component>
   <component name="RunManager">
@@ -127,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728315811529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="funcionalidade enriquecimento ficheiro csv implementada e executada (algumas linhas inalteradas devido a resposta vazia da API)">
+      <option name="closed" value="true" />
+      <created>1728481809120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728481809120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -137,31 +146,36 @@
     <MESSAGE value="primeiro commit" />
     <MESSAGE value="implementação de conexão à base de dados, leitura do ficheiro csv e funcionalidade de fazer pedido à API dos CTT" />
     <MESSAGE value="added README" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README" />
+    <MESSAGE value="funcionalidade enriquecimento ficheiro csv implementada e executada (algumas linhas inalteradas devido a resposta vazia da API)" />
+    <option name="LAST_COMMIT_MESSAGE" value="funcionalidade enriquecimento ficheiro csv implementada e executada (algumas linhas inalteradas devido a resposta vazia da API)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>51</line>
+          <line>46</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>47</line>
+          <line>42</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <condition expression="codigo_postal == &quot;8125-161&quot;" language="Python" />
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>49</line>
+          <line>44</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/db_api.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/db_api.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
